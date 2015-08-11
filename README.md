@@ -34,5 +34,5 @@ Ask any questions related to the implementation, but stackoverflow and google ar
 
 **What is this?**
 
-This repo contains the job assignment for potential Android developers at Fishbrain, you can apply for a job at: jobs@fishbrain.com
+This repo contains the job assignment for potential IOS developers at Fishbrain, you can apply for a job at: jobs@fishbrain.com
 
