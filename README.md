@@ -2,10 +2,10 @@
 
 The goal of this project is to assess iOS development skills. It is designed to be challenging, and evaluate all aspects of development.
 
-- Project Name: Fishbrain Catches Master/Detail View
-- Project Goal: Creating a simplified version of the current app master/details view with limited functionality
-- Technology: Objective-C or Swift 
-- Deliverables: The solution should be sent using the greenhouse.io link that will be provided during the interview process.
+- **Project Name:** Fishbrain Catches Master/Detail View
+- **Project Goal:** Creating a simplified version of the current app master/details view with limited functionality
+- **Technology:** Objective-C or Swift 
+- **Deliverables:** The solution should be sent using the greenhouse.io link that will be provided during the interview process.
 
 **Mockups:** https://s3-eu-west-1.amazonaws.com/fishbrain/misc/Mobile+task.jpg
 
