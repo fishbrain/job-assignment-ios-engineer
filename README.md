@@ -1,4 +1,4 @@
-### Fishbrain Catches Master/Detail
+## Fishbrain Catches Master/Detail
 
 The goal of this project is to assess iOS development skills. It is designed to be challenging, and evaluate all aspects of development.
 
@@ -13,7 +13,7 @@ The goal of this project is to assess iOS development skills. It is designed to 
 
 The API has the concept of verbosity. When requesting a specific resource we can specify the amount of details we want to receive. It is easiest to play around with multiple levels of verbosity and see the output.
 
-**Example querying of the API:**
+### Example querying of the API
 
 - Get paged catches - https://rutilus.fishbrain.com/catches?page=3
 - Get specific catch - https://rutilus.fishbrain.com/catches/81?verbosity=3
@@ -22,7 +22,7 @@ The API has the concept of verbosity. When requesting a specific resource we can
 
 - supported filters: sort `q[s]=created_at desc`, species `q[species_id_eq]`, weight `weight_lt`, `weight_gt`, and owner `owner_id_eq`.
 
-**Guidelines**
+### Guidelines
 
 Tests are optional. The design/organization of the application code should be production ready. 
 
@@ -32,17 +32,17 @@ Ask any questions related to the implementation, but stackoverflow and google ar
 
 Please keep it simple, work in the details where it matters!
 
-**What is this?**
+### What is this?**
 
 This repo contains the job assignment for potential iOS developers at Fishbrain, you can apply for a job at: jobs@fishbrain.com
 
-**FAQ***
+### FAQ
 
-*Can I use frameworks/libraries?*
+**Can I use frameworks/libraries?**
 Yes. Please use CocoaPods, Carthage or Swift PM if you do.
 
-*How much time should I spend?* 
+**How much time should I spend?**
 Don't overdo the assignment. We think 8 hours should be enough.
 
-*Swift or Objective-C?* 
+**Swift or Objective-C?**
 You're allowed to use either. 
