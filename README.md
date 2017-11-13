@@ -7,8 +7,6 @@ The goal of this project is to assess iOS development skills. It is designed to 
 - **Technology:** Objective-c or Swift
 - **Deliverables:** The solution should be sent using the greenhouse.io link that will be provided during the interview process.
 
-**Mockups:** https://s3-eu-west-1.amazonaws.com/fishbrain/misc/Mobile+task.jpg
-
 **Description:** Rebuild the catches view from the current Fishbrain app with filters in a master/details fashion. When opening the catch you should display some basic data and the full picture. Please skip the date/weight/length filters.
 
 **API to consume:** http://rutilus.fishbrain.com is our production RESTful JSON API, and since some endpoints are publicly available we can use them for this assignment.
@@ -20,7 +18,7 @@ The API has the concept of verbosity. When requesting a specific resource we can
 - Get paged catches - https://rutilus.fishbrain.com/catches?page=3
 - Get specific catch - https://rutilus.fishbrain.com/catches/81?verbosity=3
 
-- Filter by specific parameter - https://rutilus.fishbrain.com/catches/81?verbosity=3&q[species_id_eq]=258
+- Filter by specific parameter - https://rutilus.fishbrain.com/catches/81?verbosity=3&q[species_id_eq]=258&q[s]=created_at%20desc
 
 - supported filters: sort `q[s]=created_at desc`, species `q[species_id_eq]`, weight `weight_lt`, `weight_gt`, and owner `owner_id_eq`.
 
@@ -32,6 +30,19 @@ The application has to be runnable and working without major issues.
 
 Ask any questions related to the implementation, but stackoverflow and google are your first stop for any obvious questions.
 
+Please keep it simple, work in the details where it matters!
+
 **What is this?**
 
 This repo contains the job assignment for potential iOS developers at Fishbrain, you can apply for a job at: jobs@fishbrain.com
+
+**FAQ***
+
+*Can I use frameworks/libraries?*
+Yes. Please use CocoaPods, Carthage or Swift PM if you do.
+
+*How much time should I spend?* 
+Don't overdo the assignment. We think 8 hours should be enough.
+
+*Swift or Objective-C?* 
+You're allowed to use either. 
