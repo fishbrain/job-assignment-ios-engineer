@@ -32,17 +32,20 @@ Ask any questions related to the implementation, but stackoverflow and google ar
 
 Please keep it simple, work in the details where it matters!
 
-### What is this?**
+### What is this?
 
 This repo contains the job assignment for potential iOS developers at Fishbrain, you can apply for a job at: jobs@fishbrain.com
 
 ### FAQ
 
 **Can I use frameworks/libraries?**
+
 Yes. Please use CocoaPods, Carthage or Swift PM if you do.
 
 **How much time should I spend?**
+
 Don't overdo the assignment. We think 8 hours should be enough.
 
 **Swift or Objective-C?**
+
 You're allowed to use either. 
