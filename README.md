@@ -9,6 +9,10 @@ The goal of this project is to assess iOS development skills. It is designed to 
 
 **Description:** Rebuild the catches view from the current Fishbrain app with filters in a master/details fashion. When opening the catch you should display some basic data and the full picture. Please skip the date/weight/length filters.
 
+Note: Not all of the image urls are included in this public api
+
+[Catches Scene Video](https://www.youtube.com/watch?v=8PW5YSn-04g)
+
 **API to consume:** http://rutilus.fishbrain.com is our production RESTful JSON API, and since some endpoints are publicly available we can use them for this assignment.
 
 The API has the concept of verbosity. When requesting a specific resource we can specify the amount of details we want to receive. It is easiest to play around with multiple levels of verbosity and see the output.
